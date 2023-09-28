@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page</title>
+    <link rel="stylesheet" href="/assets/built/screen.css?v=75ef6d84af">
+
+
+    <style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast was taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="canonical" href="https://aryodwin.github.io/admanagement/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Aryodwin">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page">
+    <meta property="og:description" content="Company Overview
+
+Tokopedia is a leading Indonesian e-commerce platform, offering a diverse marketplace, mobile app, multiple payment options, seller empowerment, customer protection, logistics support, and significant investments for growth, catering to a wide range of buyers and sellers across Indonesia&#x27;s online retail landscape.
+
+
+Situation / Task
+
+TopAds, a paid advertising feature">
+    <meta property="og:url" content="https://aryodwin.github.io/admanagement/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
+    <meta property="article:published_time" content="2023-09-24T23:07:08.000Z">
+    <meta property="article:modified_time" content="2023-09-28T09:55:27.000Z">
+    <meta property="article:tag" content="Tokopedia">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/ghost">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page">
+    <meta name="twitter:description" content="Company Overview
+
+Tokopedia is a leading Indonesian e-commerce platform, offering a diverse marketplace, mobile app, multiple payment options, seller empowerment, customer protection, logistics support, and significant investments for growth, catering to a wide range of buyers and sellers across Indonesia&#x27;s online retail landscape.
+
+
+Situation / Task
+
+TopAds, a paid advertising feature">
+    <meta name="twitter:url" content="https://aryodwin.github.io/admanagement/">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Aryodwin">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Tokopedia">
+    <meta name="twitter:site" content="@ghost">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="1302">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Aryodwin",
+        "url": "https://aryodwin.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://aryodwin.github.io/favicon.ico"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Aryodwin",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.gravatar.com/avatar/f1ad87a139d3cce338014ff5757ee955?s=250&r=x&d=mp",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://aryodwin.github.io/author/aryodwin/",
+        "sameAs": []
+    },
+    "headline": "Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page",
+    "url": "https://aryodwin.github.io/admanagement/",
+    "datePublished": "2023-09-24T23:07:08.000Z",
+    "dateModified": "2023-09-28T09:55:27.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1536173257297-533e34457207?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&ixlib=rb-4.0.3&q=80&w=2000",
+        "width": 2000,
+        "height": 1302
+    },
+    "keywords": "Tokopedia",
+    "description": "Company Overview\n\nTokopedia is a leading Indonesian e-commerce platform, offering a diverse marketplace, mobile app, multiple payment options, seller empowerment, customer protection, logistics support, and significant investments for growth, catering to a wide range of buyers and sellers across Indonesia&#x27;s online retail landscape.\n\n\nSituation / Task\n\nTopAds, a paid advertising feature on Tokopedia, empowers sellers to promote their products and shops. The dedicated TopAds Dashboard serves as a ",
+    "mainEntityOfPage": "https://aryodwin.github.io/admanagement/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.65">
+    <link rel="alternate" type="application/rss+xml" title="Aryodwin" href="https://aryodwin.github.io/rss/">
+    
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="043e7da6144e859eb90c215c46" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://aryodwin.github.io/" crossorigin="anonymous"></script>
+    
+    <link href="https://aryodwin.github.io/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=75ef6d84af"></script><style>:root {--ghost-accent-color: #000000;}</style>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=75ef6d84af">
+</head>
+
+<body class="post-template tag-tokopedia is-head-middle-logo has-classic-feed">
+<div class="gh-site">
+
+    <header id="gh-head" class="gh-head gh-outer">
+        <div class="gh-head-inner gh-inner">
+            <div class="gh-head-brand">
+                <div class="gh-head-brand-wrapper">
+                    <a class="gh-head-logo" href="https://aryodwin.github.io">
+                            Aryodwin
+                    </a>
+                </div>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+                <button class="gh-burger"></button>
+            </div>
+
+            <nav class="gh-head-menu">
+                
+            </nav>
+
+            <div class="gh-head-actions">
+                        <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.5 17.5L12.5 12.5L17.5 17.5ZM14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+            </div>
+        </div>
+    </header>
+
+    
+<main class="gh-main gh-outer">
+    <div class="gh-inner">
+            <article class="gh-article post tag-tokopedia featured">
+                    <header class="gh-article-header gh-canvas">
+                        <h1 class="gh-article-title">Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page</h1>
+                            <figure class="gh-article-image has-caption">
+        <img
+            srcset="https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;300 300w,
+                    https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;720 720w,
+                    https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;960 960w,
+                    https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1200 1200w,
+                    https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000 2000w,
+                    https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;2000"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            src="https://images.unsplash.com/photo-1536173257297-533e34457207?crop&#x3D;entropy&amp;cs&#x3D;tinysrgb&amp;fit&#x3D;max&amp;fm&#x3D;jpg&amp;ixid&#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDQzfHxhZHN8ZW58MHx8fHwxNjk1ODkxMDkyfDA&amp;ixlib&#x3D;rb-4.0.3&amp;q&#x3D;80&amp;w&#x3D;1200"
+            alt="Enhancing Seller&#x27;s Ad Management Efficiency on Manage Product Page"
+        >
+            <figcaption>Photo by Jezael Melgoza / Unsplash</figcaption>
+    </figure>
+                    </header>
+
+                <section class="gh-content gh-canvas">
+                    <p></p><h2 id="company-overview">Company Overview </h2><p>Tokopedia is a leading Indonesian e-commerce platform, offering a diverse marketplace, mobile app, multiple payment options, seller empowerment, customer protection, logistics support, and significant investments for growth, catering to a wide range of buyers and sellers across Indonesia's online retail landscape.</p><h2 id="situation-task">Situation / Task</h2><p>TopAds, a paid advertising feature on Tokopedia, empowers sellers to promote their products and shops. The dedicated TopAds Dashboard serves as a central hub to manage ads, with entry points integrated across the Seller Dashboard.</p><p><strong>MPP (Manage Product Page)</strong>&nbsp;serves as the primary funnel for daily TopAds creation, witnessing around 4K - 5K ad creations. However, the percentage of ads created currently stands at a mere 6-8%. The goal of this project is to significantly enhance this percentage and drive better engagement with TopAds on MPP.</p><hr><p><strong>Role</strong>&nbsp;Product Designer</p><p><strong>Target User</strong>&nbsp;Tokopedia Seller</p><p><strong>Tools</strong>&nbsp;Sticky notes, Figma,  Google Docs</p><h2 id></h2><p></p><h1 id="%F0%9F%A7%A0-understanding">🧠&nbsp;Understanding </h1><hr><p>To identify user needs and problems, I thoroughly audited previous outdated designs, studied past research documents, and reviewed product performance using data analytics. These findings were then compiled into personas to gain a deeper understanding of the challenges faced by each type of user. Benchmarking is also done to gather valuable information.</p><figure class="kg-card kg-image-card kg-width-full"><img src="https://aryodwin.github.io/content/images/2023/09/image.png" class="kg-image" alt loading="lazy" width="2000" height="643" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image.png 1600w, https://aryodwin.github.io/content/images/2023/09/image.png 2000w"></figure><p>Recognizing that handling the end-to-end journey would be time-consuming, I strategically divided this project into&nbsp;<strong>three phases: the creation, monitoring, and awareness</strong>. Here are classified problems based on those phases:</p><h3 id="front-funnel"><strong>Front funnel</strong></h3><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-text"><b><strong style="white-space: pre-wrap;">Awareness Phase</strong></b><br><br>User need TopAds recommendation,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s only one and it rarely appears<br><br>User prefer this page as the 2nd most Ads Entry point,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s only one single entry point.</div></div><h3 id="back-funnel">Back Funnel</h3><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-text"><b><strong style="white-space: pre-wrap;">Creation Phase</strong></b><br><br>User need to create Ads easier and Faster,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;the creation flow is complicated<br><br>User need to mainly focus on managing product,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;ads creation flow is distracting</div></div><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-text"><b><strong style="white-space: pre-wrap;">Monitoring Phase</strong></b><br><br>User need to monitor ads status,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;the status is unclear<br><br>User need to measure conversion,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;the metric reading flow is unclear<br><br>User need to evaluate ads periodically,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s no date filter<br><br>User need to know ads placements,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s no placement filter<br><br>User need to monitor ads placement performance,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s no placement filter<br><br>User need guidance to optimize ads,&nbsp;<b><strong style="white-space: pre-wrap;">but</strong></b>&nbsp;there’s lack of education</div></div><p>We prioritized the&nbsp;<strong>back funnel</strong>, consisting of the creation and monitoring phases, with the goal of achieving higher creation and retention rates. Subsequently, I implemented the&nbsp;<strong>front-funnel</strong>, the awareness phase, to elevate adoption. This approach gained buy-in from TopAds stakeholders, enabling focused efforts and alleviating the engineering team's workload.</p><h3 id="-1"></h3><p></p><h1 id="%F0%9F%92%A1ideation">💡Ideation</h1><hr><p>I explore various flow, information architectures, wireframes, and entry points alternative to synthesize design opportunities and potential ideas. Ideas was analyzed with examining pros and cons to find the most proper one.</p><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-1.png" class="kg-image" alt loading="lazy" width="2000" height="2080" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-1.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-1.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-1.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-1.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-2.png" class="kg-image" alt loading="lazy" width="2000" height="1146" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-2.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-2.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-2.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-2.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-3.png" class="kg-image" alt loading="lazy" width="2000" height="813" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-3.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-3.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-3.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-3.png 2000w" sizes="(min-width: 720px) 720px"></figure><p></p><p></p><h1 id="%F0%9F%8E%A8-high-fidelity">🎨&nbsp;High Fidelity</h1><hr><h2 id="1-creation-phase">1. Creation Phase</h2><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-4.png" class="kg-image" alt loading="lazy" width="2000" height="970" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-4.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-4.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-4.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-4.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>Based on my design audit, the previous flow lacked continuity, causing users to lose their selected product from the Manage Product Page and having to re-select it on the TopAds Creation Page. The previous flow had 7 steps and an open-in-new-tab interaction. To address this, I streamlined the creation process into 3 steps with auto feature, and can be done on-the-spot with Modal interaction. As a result, making the process of creating ads simpler and efficient.</p><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-5.png" class="kg-image" alt loading="lazy" width="2000" height="970" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-5.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-5.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-5.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-5.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-6.png" class="kg-image" alt loading="lazy" width="2000" height="970" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-6.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-6.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-6.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-6.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>Based on compiled persona, advanced seller use advanced settings to create ads. Leveraging this behavior, I propose to enable advanced settings in this creation journey besides simple settings for the next phase, impacting the product vision.</p><p></p><h2 id="2-monitoring-phase">2. Monitoring Phase</h2><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-7.png" class="kg-image" alt loading="lazy" width="2000" height="1017" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-7.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-7.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-7.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-7.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-8.png" class="kg-image" alt loading="lazy" width="2000" height="606" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-8.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-8.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-8.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-8.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>Design audit and benchmarking indicates that the outdated design style, lack of function, and irrelevant information architecture in the previous version were not aligned with current user needs. To address this issue, I refreshed the visual style using the latest design system and revamped the information architecture. I also introduced new functions, such as ads-type filters, date filters, manage group entry point, educational tips, to assist users in optimizing their ads and achieving better retention.</p><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-9.png" class="kg-image" alt loading="lazy" width="2000" height="668" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-9.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-9.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-9.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-9.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-10.png" class="kg-image" alt loading="lazy" width="2000" height="730" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-10.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-10.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-10.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-10.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>Here are Enhanced Features in details:</p><ul><li>Clearer Ad Status: Enhancing awareness of your current ad status.</li><li>Conversion-Ordered Metrics: Simplifying conversion monitoring with sequential metrics.</li><li>Date Filter: Enabling periodic monitoring and performance comparison.</li><li>Ads Placement Filter: Educating on ad placement, facilitating specific placement tracking.</li><li>Ads Optimization Tips: Guiding users to enhance ad performance.</li></ul><p></p><h2 id="3-awareness-phase">3. Awareness Phase</h2><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-11.png" class="kg-image" alt loading="lazy" width="2000" height="1139" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-11.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-11.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-11.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-11.png 2000w" sizes="(min-width: 720px) 720px"></figure><p>After discovering from past research that Ads recommendation is the second most preferred recommendation, I noticed that MPP lacked this feature. Additionally, the journey audit revealed that TopAds lacked a bulk creation function. To improve the experience, I enrich the TopAds entry point by introducing bulk creation and implementing seven Ads recommendation types, including the logic criteria. By presenting a well-backed design proposal, supported by data and positive impacts from the creation and monitoring phases, I successfully garnered buy-in from MPP stakeholders. This enabled more essential entry points, easing ad creation and optimization, and influenced the MPP team to create an entry point guideline.</p><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-12.png" class="kg-image" alt loading="lazy" width="2000" height="1478" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-12.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-12.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-12.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-12.png 2000w" sizes="(min-width: 720px) 720px"></figure><figure class="kg-card kg-image-card"><img src="https://aryodwin.github.io/content/images/2023/09/image-13.png" class="kg-image" alt loading="lazy" width="2000" height="1072" srcset="https://aryodwin.github.io/content/images/size/w600/2023/09/image-13.png 600w, https://aryodwin.github.io/content/images/size/w1000/2023/09/image-13.png 1000w, https://aryodwin.github.io/content/images/size/w1600/2023/09/image-13.png 1600w, https://aryodwin.github.io/content/images/2023/09/image-13.png 2000w" sizes="(min-width: 720px) 720px"></figure><p></p><p></p><h1 id="%F0%9F%A7%AA-testing">🧪&nbsp;Testing</h1><hr><p>TopAds has a creation and monitoring experience on the Product Detail Page (PDP). Following successful&nbsp;<strong>A/B testing</strong>&nbsp;on Manage Product Page,&nbsp;<strong>I directed the extension of this experience to PDP</strong>&nbsp;to broaden its positive impact, and having a consistent journey to maintain.</p><p></p><h1 id="%E2%9C%A8-extra-miles">✨&nbsp;Extra Miles</h1><hr><p>As research shows SOM (seller order management) is the second most preferred TopAds entry point among sellers.&nbsp;<strong>I proposed extending the TopAds experience to SOM</strong>, this strategic move contributes to product vision.</p><p></p><h1 id="%F0%9F%9A%80-outcomes">🚀&nbsp;Outcomes</h1><hr><h3 id="manage-product-page">Manage Product Page</h3><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the daily successful rate of shop’s ads creation</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑120%</strong></b><br>Desktop:&nbsp;<b><strong style="white-space: pre-wrap;">↑29%</strong></b></div></div><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the number of daily advertised product</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑75%</strong></b><br>Desktop:&nbsp;<b><strong style="white-space: pre-wrap;">↑64%</strong></b></div></div><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the number of daily advertised product</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑50%</strong></b></div></div><h3 id="product-detail-page">Product Detail Page</h3><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the daily successful rate of shop’s ads creation</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑140%</strong></b><br>Desktop:&nbsp;<b><strong style="white-space: pre-wrap;">↑79%</strong></b></div></div><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the number of daily advertised product</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑88%</strong></b><br>Desktop:&nbsp;<b><strong style="white-space: pre-wrap;">↑13%</strong></b></div></div><div class="kg-card kg-callout-card kg-callout-card-grey"><div class="kg-callout-emoji">📈</div><div class="kg-callout-text">Increasing&nbsp;<i><em class="italic" style="white-space: pre-wrap;">the number of daily advertised product</em></i><br><br>Android:&nbsp;<b><strong style="white-space: pre-wrap;">↑50%</strong></b><br>Desktop:&nbsp;<b><strong style="white-space: pre-wrap;">↑26%</strong></b></div></div><p></p><h3 id="%F0%9F%8C%B1-other-impact">🌱 Other Impact</h3><hr><ul><li>By proposing&nbsp;<strong>extending TopAds experience into Seller Order Management</strong>&nbsp;based on research, I strategically&nbsp;<strong>contributed to product vision.</strong></li><li>By&nbsp;<strong>directing the extension of this improved experience to PDP</strong>, we have consistent journeys easier to maintain.</li><li>By gaining buy-in from TopAds stakeholders for&nbsp;<strong>dividing this project into three phases</strong>, I enabled focused efforts and&nbsp;<strong>alleviating the engineering team's workload</strong>.</li><li>By securing stakeholder buy-in through a data-supported design proposal,&nbsp;<strong>I influenced the MPP team to establish an entry point guideline.</strong></li></ul><p></p><h2 id="%F0%9F%93%96-learnings">📖&nbsp;Learnings</h2><hr><ul><li>By getting the buy-in and influenced MPP team to create an entry point guideline, I learned to expand my influence not only to my tribe, but also to other tribe.</li><li>I learned to see things holistically by leveraging multiple data points &amp; insights, then compiled them into persona to gain a deeper understanding of the challenges faced by each type of user</li></ul>
+                    <aside class="gh-article-meta">
+                        <div class="gh-article-meta-inner">
+                                    <figure class="gh-author-image">
+                                        <img src="https://www.gravatar.com/avatar/f1ad87a139d3cce338014ff5757ee955?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp" alt="Aryodwin">
+                                    </figure>
+                                <div class="gh-article-meta-wrapper">
+                                <h4 class="gh-author-name">
+                                    <a href="/author/aryodwin/">Aryodwin</a>
+                                </h4>
+                            <time class="gh-article-date" datetime="2023-09-24">Sep 24, 2023</time></div>
+                                <a class="gh-article-tag" href="https://aryodwin.github.io/tag/tokopedia/" style="--tag-color: ">Tokopedia</a>
+                        </div>
+                    </aside>
+                </section>
+
+
+                <footer class="gh-article-footer gh-canvas">
+                    <nav class="gh-navigation">
+                        <div class="gh-navigation-previous">
+                                <a class="gh-navigation-link" href="/elevatingagricultureinvestorstrust/">← Previous</a>
+                        </div>
+
+                        <div class="gh-navigation-middle"></div>
+
+                        <div class="gh-navigation-next">
+                        </div>
+                    </nav>
+                </footer>
+            </article>
+    </div>
+</main>
+
+    <footer class="gh-foot gh-outer">
+        <div class="gh-foot-inner gh-inner">
+            <nav class="gh-foot-menu">
+                
+            </nav>
+
+            <div class="gh-copyright">
+                    Aryodwin © 2023
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/assets/built/main.min.js?v=75ef6d84af"></script>
+
+
+
+</body>
+
+</html>
