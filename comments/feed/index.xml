@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Aryodwin	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Mon, 10 Mar 2025 09:02:06 +0000</lastBuildDate>
 	<sy:updatePeriod>
